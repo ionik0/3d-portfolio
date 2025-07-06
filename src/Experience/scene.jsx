@@ -1,8 +1,5 @@
 import React, { Suspense } from 'react'
-import DarkRoomFirst from './models/Dark_room_first.jsx'
-import DarkRoomSecond from './models/Dark_room_second.jsx' 
-import DarkRoomThird from './models/Dark_room_third.jsx'
-import DarkRoomFourth from './models/Dark_room_fourth.jsx'
+
 import { useFrame } from '@react-three/fiber'
 import Room from './models/Iso_room.jsx'
 
@@ -17,10 +14,7 @@ useFrame(() => {
 
   return (
     <Suspense >
-      <DarkRoomFirst />
-      <DarkRoomSecond />
-      <DarkRoomThird />
-      <DarkRoomFourth />
+      
       
       <ambientLight />
       <hemisphereLight/>
