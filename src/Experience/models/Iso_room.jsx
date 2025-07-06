@@ -146,4 +146,4 @@ const newMaterials = convertToBasicMaterials(materials);
   )
 }
 
-useGLTF.preload('/iso_room.glb')
+useGLTF.preload('/models/iso_room.glb')
