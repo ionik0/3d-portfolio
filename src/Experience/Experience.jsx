@@ -17,7 +17,7 @@ useFrame(() => {
 
   return (
     <Canvas>
-      <OrthogonalCamera ref={cameraRef} makeDefault position={[-5.091815760151335,
+      <OrthographicCamera ref={cameraRef} makeDefault position={[-5.091815760151335,
          4.51834729421205, 5.338096715730072]}
          rotation={[-0.8138097686916666, -0.6852967312960734, -0.41947779883392433]} 
          
